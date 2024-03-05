@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>New Student Registration</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="birthdate">Date of Birth:</label>
+      <input type="date" id="birthdate" name="birthdate" required>
+      <br>
+      <label for="gender">Gender:</label>
+      <label for="man">Man</label>
+      <input type="radio" value="man" id="gender" name="gender" required>
+      <br>
+      <label for="woman">Woman</label>
+      <input type="radio" value="woman" id="gender" name="gender" required>
+      <br>
+      <label for="nonbinary">Nonbinary</label>
+      <input type="radio" value="nonbinary" id="gender" name="gender" required>
+      <br>
+      <label for="other">Other</label>
+      <input type="radio" value="other" id="gender" name="gender" required>
+      <br>
+      <label for="notsay">Prefer not to say</label>
+      <input type="radio" value="notsay" id="gender" name="gender" required>
+      <br>
+      <label for="address">Address:</label>
+      <input type="address" id="address" name="address" required>
+      <br>
+      <label for="phonenum">Phone number:</label>
+      <input type="tel" id="phonenum" name="phonenum" required>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="myname@email.com" required>
+      <br>
+      <label for="course">Course:</label>
+      <input type="checkbox" id="entrepreneurship" name="course" value="entrepreneurship">
+      <label for="entrepreneurship">Entrepreneurship</label>
+
+      <input type="checkbox" id="comp_essen" name="course" value="comp_essen">
+      <label for="comp_essen">Computing Essentials</label>
+
+      <input type="checkbox" id="web_dev" name="course" value="web_dev">
+      <label for="web_dev">Web Development</label>
+
+      <input type="checkbox" id="python" name="course" value="python">
+      <label for="python">Python</label>
+
+      <input type="checkbox" id="dart" name="course" value="dart" >
+      <label for="dart">Dart</label>
+
+      <input type="checkbox" id="database" name="course" value="database">
+      <label for="database">Database</label>
+      <br>
+      <input type="submit" value="Register">
+      <input type="button" value="Cancel" onclick="history.go(-1)"/>
+    </form>
+  </body>
+</html>
